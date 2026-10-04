@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Framework theme only: no appcompat dependency, so the window background
+         is set here instead of leaking through as white during first frame. -->
+    <style name="Theme.TuxTerm" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#0B0F14</item>
+        <item name="android:statusBarColor">#0B0F14</item>
+        <item name="android:navigationBarColor">#0B0F14</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
